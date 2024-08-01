@@ -11,7 +11,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={GeistSans.className} >{children}</body>
+      <body className={GeistSans.className} >
+        <section className="antialiased">
+        {children}
+        </section>
+      </body>
     </html>
   );
 }

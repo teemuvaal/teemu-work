@@ -7,8 +7,8 @@ import Projects from "./components/projects";
 
 export default function Home() {
   return (
-  <div className='flex items-center justify-center mt-20'>
-  <div className='w-2/3'>
+  <div className='flex items-center justify-center mt-10'>
+  <div className='w-2/3 md:w-1/3'>
     <Header />
     <Divider />
     <Profile />

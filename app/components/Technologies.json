@@ -1,9 +1,19 @@
 
 [
     {
-        "name": "Python",
-        "level": "Beginner",
-        "icon": "./Python.svg"
+        "name": "HTML5",
+        "level": "Intermediate",
+        "icon": "./HTML5.svg"
+    },
+    {
+        "name": "CSS3",
+        "level": "Intermediate",
+        "icon": "./CSS3.svg"
+    },
+    {
+        "name": "Tailwind CSS",
+        "level": "Intermediate",
+        "icon": "./Tailwind CSS.svg"
     },
     {
         "name": "JavaScript",
@@ -21,24 +31,14 @@
         "icon": "./Next.js.svg"
     },
     {
-        "name": "Azure",
+        "name": "PostgresSQL",
+        "level": "Intermediate",
+        "icon": "./PostgresSQL.svg"
+    },
+    {
+        "name": "Python",
         "level": "Beginner",
-        "icon": "./Azure.svg"
-    },
-    {
-        "name": "CSS3",
-        "level": "Intermediate",
-        "icon": "./CSS3.svg"
-    },
-    {
-        "name": "HTML5",
-        "level": "Intermediate",
-        "icon": "./HTML5.svg"
-    },
-    {
-        "name": "Tailwind CSS",
-        "level": "Intermediate",
-        "icon": "./Tailwind CSS.svg"
+        "icon": "./Python.svg"
     },
     {
         "name": "Jupyter",
@@ -50,19 +50,15 @@
         "level": "Beginner",
         "icon": "./Pandas.svg"
     },
+    
+    {
+        "name": "Azure",
+        "level": "Beginner",
+        "icon": "./Azure.svg"
+    },
     {
         "name": "Git",
         "level": "Intermediate",
         "icon": "./Git.svg"
-    },
-    {
-        "name": "PostgresSQL",
-        "level": "Intermediate",
-        "icon": "./PostgresSQL.svg"
-    },
-    {
-        "name": "RStudio",
-        "level": "Beginner",
-        "icon": "./RStudio.svg"
     }
 ]

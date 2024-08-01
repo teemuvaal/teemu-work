@@ -14,16 +14,16 @@ export default function Header () {
                     <span className='flex flex-row gap-2 py-2'>
                         <span
                         className="hover:scale-110"
-                        ><Link href='https://github.com/teemuvaal'><Github size={16} /></Link></span>
+                        ><a target="_blank" href='https://github.com/teemuvaal'><Github size={16} /></a></span>
                         <span
                         className="hover:scale-110"
-                        ><Link href='https://www.linkedin.com/in/teemuvaalasmaa/'><Linkedin size={16} /></Link></span>
+                        ><a target="_blank" href='https://www.linkedin.com/in/teemuvaalasmaa/'><Linkedin size={16} /></a></span>
                         <span
                         className="hover:scale-110"
-                        ><Link href='https://www.instagram.com/flipsku/'><Instagram size={16} /></Link></span>
+                        ><a target="_blank" href='https://www.instagram.com/flipsku/'><Instagram size={16} /></a></span>
                         <span
                         className="hover:scale-110"
-                        ><Link href='https://twitter.com/flipsku'><Twitter size={16} /></Link></span>
+                        ><a target="_blank" href='https://twitter.com/flipsku'><Twitter size={16} /></a></span>
                     </span>
                 </div>
             </div>

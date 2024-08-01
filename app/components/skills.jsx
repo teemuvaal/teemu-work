@@ -11,7 +11,7 @@ export default function Skills () {
             <div className="py-2">
                 <div className='flex flex-wrap px-2 gap-1'>
                     {Technologies.map((technology, index) => (
-                        <span className="hover:scale-105">
+                        <span key={index}className="hover:scale-105">
                             <Image key={index} src={technology.icon} alt={technology.name} width={24} height={24} />
                         </span>
                     ))}

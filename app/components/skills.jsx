@@ -7,8 +7,8 @@ import OtherSkills from "./OtherSkills.json"
 import { useState } from "react"
 
 // New component for expanded technology information
-const ExpandedTechnology = ({ technology }) => (
-  <div className="rounded-lg bg-black px-2 py-1 text-sm text-white flex flex-row gap-2">
+const ExpandedTechnology = ({ technology, isExpanded }) => (
+  <div className={`rounded-lg bg-black px-2 py-1 text-sm text-white flex flex-row gap-1 overflow-hidden transition-all duration-500 ease-in-out ${isExpanded ? 'max-h-28 opacity-100' : 'max-h-0 opacity-0'}`}>
     <p><strong>{technology.name}</strong></p>
     <p>{technology.level}</p>
   </div>
@@ -32,7 +32,7 @@ export default function Skills () {
                                 <Image src={technology.icon} alt={technology.name} width={28} height={28} />
                             </span>
                             {expandedTech === index && (
-                                    <ExpandedTechnology technology={technology} />
+                                    <ExpandedTechnology technology={technology} isExpanded={expandedTech === index} />
                                 )}
                         </div>
                     ))}

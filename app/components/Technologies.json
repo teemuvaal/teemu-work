@@ -60,5 +60,11 @@
         "name": "Git",
         "level": "Intermediate",
         "icon": "./Git.svg"
+    },
+    {
+        "name": "Docker",
+        "level": "Beginner",
+        "icon": "./Docker.svg"
     }
+
 ]

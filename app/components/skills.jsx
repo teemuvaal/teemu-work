@@ -5,7 +5,7 @@ import Image from "next/image"
 
 export default function Skills () {
     return (
-        <div className='py-4'>
+        <div className='py-2'>
             <h1 className='font-strong'>Skills</h1>
             <div>
                 <h2 className='font-light text-sm p-2'>

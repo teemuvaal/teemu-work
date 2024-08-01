@@ -1,6 +1,7 @@
 export default function Profile () {
     return (
-        <div>
+        <div
+        className="py-2">
         <h1 className='text-md'>About</h1>
         <p className='font-light text-sm text-gray-700 py-1 px-2'>
             I build things for the web for myself. Also expert in anything 

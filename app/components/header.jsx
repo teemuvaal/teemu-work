@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { Instagram, Linkedin, Twitter, Github } from "lucide-react";
+import Link from "next/link";
 
 export default function Header () {
     return (
@@ -9,15 +11,29 @@ export default function Header () {
                 <div className='flex flex-col p-2'>
                     <p className='font-light text-sm text-gray-800'>Helsinki, Finland</p>
                     <p className='font-light text-gray-800 text-sm'>teemu.vaalasmaa@gmail.com</p>
+                    <span className='flex flex-row gap-2 py-2'>
+                        <span
+                        className="hover:scale-110"
+                        ><Link href='https://github.com/teemuvaal'><Github size={16} /></Link></span>
+                        <span
+                        className="hover:scale-110"
+                        ><Link href='https://www.linkedin.com/in/teemuvaalasmaa/'><Linkedin size={16} /></Link></span>
+                        <span
+                        className="hover:scale-110"
+                        ><Link href='https://www.instagram.com/flipsku/'><Instagram size={16} /></Link></span>
+                        <span
+                        className="hover:scale-110"
+                        ><Link href='https://twitter.com/flipsku'><Twitter size={16} /></Link></span>
+                    </span>
                 </div>
             </div>
-            <dvi className='w-1/5'>
+            <div className='w-1/5'>
                 <Image
                 src='/notion-avatar.png'
                 width={100}
                 height={100}
-                />
-            </dvi>
+                />  
+            </div>
         </div>
         </div>
     )

@@ -1,11 +1,12 @@
 import { GeistSans } from 'geist/font/sans';
+import config from '@/config';
 
 import './globals.css' // tailwind CSS
 
 
 export const metadata = {
-  title: "teemu.work",
-  description: "Teemu's personal website",
+  title: config.siteName,
+  description: config.siteDescription,
 };
 
 export default function RootLayout({ children }) {

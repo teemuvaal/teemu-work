@@ -1,4 +1,5 @@
 import ProjectCard from "./ProjectCard"
+import config from "@/config"
 
 export default function Projects() {
     return (
@@ -7,11 +8,10 @@ export default function Projects() {
         >
             <h2>Projects, etc.</h2>
             <div className="flex flex-row gap-2 p-2">
-                <ProjectCard title="Oisko" description="Oisko is a simple social calendar tool built with NextJS, Supabase and Tailwind CSS."  href="https://oisko.app" cover='/Oisko.png'/>
-                <ProjectCard title="GameGains" description="Ultrahack 2019 #3 place. Fighting against exclusion by promoting skills gained by gaming." href={"https://ultrahack.org/files/Ultrahack%20Sprint%20I%202019%20press%20release.pdf"} cover='/GameGains.png'/>
-                <ProjectCard title="Drone Hackathon" description="Ultrahack Drone Olympics 2019 #1 place." />
+                {config.Projects.map((project, index) => (
+                    <ProjectCard key={index} title={project.title} description={project.description} href={project.href} cover={project.cover}/>
+                ))}
             </div>
-
         </div>
     )
 }

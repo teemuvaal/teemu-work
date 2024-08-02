@@ -1,11 +1,11 @@
 import Job from './job'
-import jobExperience from './jobExperience.json'
+import config from '@/config'
 
 export default function Experience () {
     return (
         <div className='py-2'>
             <h1 className='font-strong text-md'>Experience</h1>
-            {jobExperience.map((job, index) => (
+            {config.jobExperience.map((job, index) => (
                 <div key={index}>
                     {job.positions.map((position, posIndex) => (
                         <Job 

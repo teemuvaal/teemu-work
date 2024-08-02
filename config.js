@@ -7,19 +7,20 @@ const config = {
     siteLanguage: "en_US",
     // Specify technologies
     // Place .svg to public
+    Photo: "/notion-avatar.png",
     Name: "Teemu Vaalasmaa",
     Email: "teemu.vaalasmaa@gmail.com",
+    Location: "Helsinki, Finland",
     Socials: [
         {
             "name": "LinkedIn",
             "href": "https://www.linkedin.com/in/teemuvaalasmaa/",
         }
     ],
-    Profile: "I'm an adult educator who leaped to the dark side - startups. " +
-             "I build things for the web for myself, but also fiddle with the front-end of CLANED. " +
-             "Expert in anything that comes to online learning. Learning Analytics is my jam but I'm into " +
-             "Data Analytics in general and especially if you can enhance it with AI. " +
-             "I like the stuff between humans and technology.",
+    Profile: "I am an adult educator who transitioned into the world of startups. " +
+             "I build web applications for personal projects." +
+             "I am an expert in online learning, with a particular passion for Learning Analytics, though I also have a keen interest in Data Analytics, especially when enhanced by AI." +
+             "I am fascinated by the intersection of humans and technology.",
     Technologies: [
         {
             "name": "HTML5",
@@ -147,6 +148,7 @@ const config = {
           ]
         }
       ],
+      // Place projects here, each will be displayed as a card
       Projects:
       [
         {

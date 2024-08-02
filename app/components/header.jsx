@@ -9,7 +9,7 @@ export default function Header () {
             <div className='w-4/5'>              
                 <h2 className='text-black'>{config.Name}</h2>
                 <div className='flex flex-col p-2'>
-                    <p className='font-light text-sm text-gray-800'>Helsinki, Finland</p>
+                    <p className='font-light text-sm text-gray-800'>{config.Location}</p>
                     <p className='font-light text-gray-800 text-sm'>{config.Email}</p>
                     <span className='flex flex-row gap-2 py-2'>
                         <span
@@ -29,7 +29,7 @@ export default function Header () {
             </div>
             <div className='w-1/5'>
                 <Image
-                src='/notion-avatar.png'
+                src={config.Photo}
                 width={100}
                 height={100}
                 />  

@@ -1,4 +1,4 @@
-import Job from './job'
+import Job from './Job'
 import config from '@/config'
 
 export default function Experience () {

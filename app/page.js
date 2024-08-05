@@ -1,9 +1,10 @@
-import Header from "./components/header";
-import Profile from "./components/profile";
-import Experience from "./components/experience";
-import Divider from "./components/divider";
-import Skills from "./components/skills";
+import Header from "./components/Header";
+import Profile from "./components/Profile";
+import Experience from "./components/Experience";
+import Divider from "./components/Divider";
+import Skills from "./components/Skills";
 import Projects from "./components/projects";
+import CopyHere from "./components/CopyHere";
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
     <Experience />
     <Divider />
     <Projects />
-
+    <CopyHere />
   </div>
   </div>
   );

@@ -3,7 +3,7 @@ import Profile from "./components/Profile";
 import Experience from "./components/Experience";
 import Divider from "./components/Divider";
 import Skills from "./components/Skills";
-import Projects from "./components/projects";
+import Projects from "./components/Projects";
 import CopyHere from "./components/CopyHere";
 
 export default function Home() {
@@ -19,6 +19,7 @@ export default function Home() {
     <Experience />
     <Divider />
     <Projects />
+    <Divider />
     <CopyHere />
   </div>
   </div>

@@ -11,12 +11,10 @@ const config = {
     Name: "Teemu Vaalasmaa",
     Email: "teemu.vaalasmaa@gmail.com",
     Location: "Helsinki, Finland",
-    Socials: [
-        {
-            "name": "LinkedIn",
-            "href": "https://www.linkedin.com/in/teemuvaalasmaa/",
-        }
-    ],
+    LinkedIn: "https://www.linkedin.com/in/teemuvaalasmaa/",
+    GitHub: "https://github.com/teemuvaal",
+    Instagram: "https://www.instagram.com/flipsku/",
+    Twitter: "https://twitter.com/flipsku",
     Profile: "I am an adult educator who transitioned into the world of startups. " +
              "I build web applications for personal projects." +
              "I am an expert in online learning, with a particular passion for Learning Analytics, though I also have a keen interest in Data Analytics, especially when enhanced by AI." +
@@ -93,16 +91,36 @@ const config = {
     // Other skills to be displayed
     OtherSkills:
     [
-        "English",
-        "Finnish",
-        "Project Management",
-        "Pedagogy",
-        "Adult Education",
-        "Leadership",
-        "Learning Analytics",
-        "Data Visualization",
-        "Data Analysis",
-        "AI"
+        {"name": "English",
+        "description": "Full professional proficiency"
+        }, 
+        {"name": "Finnish",
+        "description": "Native"
+        },
+        {"name": "Project Management",
+        "description": "5+ years"
+        },
+        {"name": "Pedagogy",
+        "description": "M.A. in Adult Education, 10+ years"
+        },
+        {"name": "Adult Education",
+        "description": "M.A. in Adult Education, 10+ years"
+        },
+        {"name": "Leadership",
+        "description": "4+ years"
+        },
+        {"name": "Learning Analytics",
+        "description": "4+ years"
+        },
+        {"name": "Data Visualization",
+        "description": "4+ years"
+        },
+        {"name": "Data Analysis",
+        "description": "Intermediate"
+        },
+        {"name": "AI",
+        "description": "Intermediate"
+        },
     ],
     // Define Job exprience here
     jobExperience:

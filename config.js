@@ -47,27 +47,27 @@ const config = {
         },
         {
             "name": "Next.js",
-            "level": "Beginner",
+            "level": "Fundamentals, my go-to framework for web development.",
             "icon": "./Next.js.svg"
         },
         {
             "name": "PostgresSQL",
-            "level": "Intermediate",
+            "level": "Basic Setup, Data Retrieval with SQL",
             "icon": "./PostgresSQL.svg"
         },
         {
             "name": "Python",
-            "level": "Beginner",
+            "level": "Fundamentals, used for data analysis and visualization.",
             "icon": "./Python.svg"
         },
         {
             "name": "Jupyter",
-            "level": "Beginner",
+            "level": "Fundamentals, used for data analysis and visualization.",
             "icon": "./Jupyter.svg"
         },
         {
             "name": "Pandas",
-            "level": "Beginner",
+            "level": "Fundamentals, data manipulation and analysis.",
             "icon": "./Pandas.svg"
         },
         
@@ -85,6 +85,11 @@ const config = {
             "name": "Docker",
             "level": "Beginner",
             "icon": "./Docker.svg"
+        },
+        {
+            "name": "Linux",
+            "level": "Fundamentals",
+            "icon": "./Linux.svg"
         }
     
     ],
@@ -98,7 +103,7 @@ const config = {
         "description": "Native"
         },
         {"name": "Project Management",
-        "description": "5+ years"
+        "description": "Customer projects in Online Learning."
         },
         {"name": "Pedagogy",
         "description": "M.A. in Adult Education, 10+ years"
@@ -107,19 +112,19 @@ const config = {
         "description": "M.A. in Adult Education, 10+ years"
         },
         {"name": "Leadership",
-        "description": "4+ years"
+        "description": "Running, managing day to day operations and customer success team."
         },
         {"name": "Learning Analytics",
-        "description": "4+ years"
+        "description": "Customer cases, internal dashboards."
         },
         {"name": "Data Visualization",
-        "description": "4+ years"
+        "description": "Python, PowerPoint, Excel"
         },
         {"name": "Data Analysis",
         "description": "Intermediate"
         },
         {"name": "AI",
-        "description": "Intermediate"
+        "description": "AI development using Python, OpenAI for small projects."
         },
     ],
     // Define Job exprience here
@@ -136,13 +141,13 @@ const config = {
             },
             {
               "title": "Chief Product Officer",
-              "description": "Building the platform and related services.",
+              "description": "Building the platform and related services. Managing the customer success team.",
               "startDate": "2022",
               "endDate": "2023"
             },
             {
               "title": "Head Of Learning Design",
-              "description": "n/a",
+              "description": "Building Learning Design as a service. Onboarding customers and setting up online learning during covid all over the world.",
               "startDate": "2020",
               "endDate": "2022"
             },
@@ -173,19 +178,22 @@ const config = {
             "title": "Oisko.app",
             "description": "Oisko is a simple social calendar tool built with NextJS, Supabase and Tailwind CSS.",
             "href":"https://oisko.app",
-            "cover":"/Oisko.png"
+            "cover":"/Oisko.png",
+            "alt":"Picture of Oisko.app"
         },
         {
             "title": "GameGains",
             "description": "Ultrahack 2019 #3 place. Fighting against exclusion by promoting skills gained by gaming.",
             "href":"https://ultrahack.org/files/Ultrahack%20Sprint%20I%202019%20press%20release.pdf",
-            "cover":"/GameGains.png"
+            "cover":"/GameGains.png",
+            "alt":"Picture of GameGains"
         },
         {
             "title":"Drone Hackathon",
             "description":"Ultrahack Drone Olympics 2019 #1 place.",
             "href":"",
             "cover":"",
+            "alt":"Picture of Drone Hackathon"
         }
       ]
     

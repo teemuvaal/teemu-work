@@ -31,7 +31,7 @@ export default function Header () {
                 <Image
                 src={config.Photo}
                 width={100}
-                height={100}
+                height={100}               
                 />  
             </div>
         </div>

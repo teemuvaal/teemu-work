@@ -10,4 +10,7 @@ To use this template, add your details to config.js and then run the development
 npm run dev
 ```
 
+## Notes
+
 Currently, images are in the public folder. You can add your own images to the public folder and then reference them in the config.js file.
+Icons from: TechIcons[[https://techicons.dev/]]

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function ProjectCard({ title, description, href, cover }) {
+export default function ProjectCard({ title, description, href, cover}) {
     return (
         <div className="w-40 h-40 relative overflow-hidden rounded-md border border-black group">
             <a href={href} target="_blank" rel="noopener noreferrer" className="block w-full h-full">

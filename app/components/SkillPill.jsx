@@ -1,5 +1,5 @@
 const ExpandedSkill = ({ skill }) => (
-  <div className="ml-1 rounded-lg bg-black px-2 py-1 text-sm text-white">
+  <div className="ml-1 rounded-lg bg-white px-2 py-1 text-sm text-black border border-black">
     <p>{skill.description}</p>
   </div>
 );

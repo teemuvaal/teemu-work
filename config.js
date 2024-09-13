@@ -15,9 +15,8 @@ const config = {
     GitHub: "https://github.com/teemuvaal",
     Instagram: "https://www.instagram.com/flipsku/",
     Twitter: "https://twitter.com/flipsku",
-    Profile: "I am an adult educator who transitioned into the world of startups. " +
-             "I build web applications for personal projects." +
-             "I am an expert in online learning, with a particular passion for Learning Analytics, though I also have a keen interest in Data Analytics, especially when enhanced by AI." +
+    Profile: "I am an adult educator with expertise in online learning, software development, data and AI. " +
+             "I like building web applications and learning new technologies. Currently: frontend development, devops, servers and AI. Take a peek at the bottom of the page to see some of my projects." +
              "I am fascinated by the intersection of humans and technology.",
     Technologies: [
         {
@@ -135,7 +134,7 @@ const config = {
           "positions": [
             {
               "title": "CEO",
-              "description": "n/a",
+              "description": "Managing the company and the team. Working with customers and building the product.",
               "startDate": "2023",
               "endDate": "Present"
             },
@@ -194,6 +193,13 @@ const config = {
             "href":"",
             "cover":"",
             "alt":"Picture of Drone Hackathon"
+        },
+        {
+            "title": "Reitit -app",
+            "description": "Simple web app for planning routes from one location (e.g. home, office) to multiple destinations with public transport information.",
+            "href": "https://teemu.work/reitit",
+            "cover": "",
+            "alt": "Picture of Reitit app"
         }
       ]
     

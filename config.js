@@ -133,29 +133,12 @@ const config = {
           "company": "Claned Group Oy Ab",
           "positions": [
             {
-              "title": "CEO",
-              "description": "Managing the company and the team. Working with customers and building the product.",
-              "startDate": "2023",
-              "endDate": "Present"
-            },
-            {
-              "title": "Chief Product Officer",
-              "description": "Building the platform and related services. Managing the customer success team.",
-              "startDate": "2022",
-              "endDate": "2023"
-            },
-            {
-              "title": "Head Of Learning Design",
-              "description": "Building Learning Design as a service. Onboarding customers and setting up online learning during covid all over the world.",
-              "startDate": "2020",
-              "endDate": "2022"
-            },
-            {
-              "title": "Customer Success Manager",
-              "description": "Managing customer support and building customer support processes. Client onboarding and training.",
+              "title": "CEO, COO, CPO, Head Of Learning Design, Customer Success Manager",
+              "description": "Claned is a smart, analytics and AI based learning platform. I've been in different roles since the company grew from 20 000 users to 100 000+ users.",
               "startDate": "2019",
-              "endDate": "2020"
-            }
+              "endDate": "Present",
+              "website": "https://www.claned.com"
+            },
           ]
         },
         {

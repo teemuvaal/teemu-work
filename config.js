@@ -21,22 +21,22 @@ const config = {
     Technologies: [
         {
             "name": "HTML5",
-            "level": "Intermediate",
+            "level": "Good",
             "icon": "./HTML5.svg"
         },
         {
             "name": "CSS3",
-            "level": "Intermediate",
+            "level": "Good",
             "icon": "./CSS3.svg"
         },
         {
             "name": "Tailwind CSS",
-            "level": "Intermediate",
+            "level": "Good",
             "icon": "./Tailwind CSS.svg"
         },
         {
             "name": "JavaScript",
-            "level": "Beginner",
+            "level": "Intermediate",
             "icon": "./JavaScript.svg"
         },
         {
@@ -46,12 +46,12 @@ const config = {
         },
         {
             "name": "Next.js",
-            "level": "Fundamentals, my go-to framework for web development.",
+            "level": "My go-to framework for web development.",
             "icon": "./Next.js.svg"
         },
         {
             "name": "PostgresSQL",
-            "level": "Basic Setup, Data Retrieval with SQL",
+            "level": "Setup, build and manage in production.",
             "icon": "./PostgresSQL.svg"
         },
         {
@@ -72,17 +72,17 @@ const config = {
         
         {
             "name": "Azure",
-            "level": "Beginner",
+            "level": "Cloud setup, services and management.",
             "icon": "./Azure.svg"
         },
         {
             "name": "Git",
-            "level": "Intermediate",
+            "level": "git push --force",
             "icon": "./Git.svg"
         },
         {
             "name": "Docker",
-            "level": "Beginner",
+            "level": "Fundamentals",
             "icon": "./Docker.svg"
         },
         {
@@ -102,7 +102,7 @@ const config = {
         "description": "Native"
         },
         {"name": "Project Management",
-        "description": "Customer projects in Online Learning."
+        "description": "Consultation, integration and implementation of learning management systems."
         },
         {"name": "Pedagogy",
         "description": "M.A. in Adult Education, 10+ years"

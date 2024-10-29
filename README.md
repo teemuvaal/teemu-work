@@ -14,3 +14,5 @@ npm run dev
 
 Currently, images are in the public folder. You can add your own images to the public folder and then reference them in the config.js file.
 Icons from: TechIcons[[https://techicons.dev/]]
+
+Favicon from: Favicon.io[[https://favicon.io/favicon-generator/]]

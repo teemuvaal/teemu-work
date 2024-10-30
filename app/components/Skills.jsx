@@ -4,6 +4,7 @@ import { useState } from 'react'
 import TechnologyPill from "./TechnologyPill"
 import SkillPill from "./SkillPill"
 import config from "@/config"
+import { Wrench } from 'lucide-react'
 
 const Technologies = () => {
   const [expandedTech, setExpandedTech] = useState(null);
@@ -48,7 +49,7 @@ const OtherSkills = () => {
 export default function Skills() {
   return (
     <div className='py-2'>
-      <span className='flex flex-row gap-1'><h1 className='font-bold'>Skills</h1>
+      <span className='flex flex-row gap-1'><Wrench /><h1 className='font-bold'>Skills</h1>
       </span>
       <Technologies />
       <OtherSkills />

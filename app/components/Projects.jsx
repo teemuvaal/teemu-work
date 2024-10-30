@@ -6,7 +6,7 @@ export default function Projects() {
         <div
         className="py-2"
         >
-            <h2>Projects, etc.</h2>
+            <h2 className="font-bold">Projects, etc.</h2>
             <div className="flex flex-col lg:flex-row gap-2 p-2 md:flex-col">
                 {config.Projects.map((project, index) => (
                     <ProjectCard key={index} title={project.title} description={project.description} href={project.href} cover={project.cover}/>

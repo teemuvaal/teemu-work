@@ -8,8 +8,8 @@ export default function SkillPill({ skill, isExpanded, onExpand }) {
   return (
     <div className="inline-block">
       <span 
-        className="inline-flex items-center hover:scale-105 cursor-pointer"
-        onClick={onExpand}
+        className="inline-flex items-center hover:scale-105 cursor-pointer transition-all duration-300"
+        onClick={onExpand} onMouseEnter={onExpand} onTouchStart={onExpand}
       >
         <div className="rounded-lg bg-black px-2 py-1 text-sm text-white">
           {skill.name}

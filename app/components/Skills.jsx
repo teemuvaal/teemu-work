@@ -49,7 +49,7 @@ const OtherSkills = () => {
 export default function Skills() {
   return (
     <div className='py-2'>
-      <span className='flex flex-row gap-1'><h1 className='font-strong'>Skills</h1>
+      <span className='flex flex-row gap-1'><h1 className='font-bold'>Skills</h1>
       <p className='text-[0.7rem] font-extralight text-gray-500'>Click to expand</p>
       <MessageCircleQuestion height={16} width={16} />
       </span>

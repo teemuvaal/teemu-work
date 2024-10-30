@@ -4,7 +4,6 @@ import { useState } from 'react'
 import TechnologyPill from "./TechnologyPill"
 import SkillPill from "./SkillPill"
 import config from "@/config"
-import { MessageCircleQuestion } from 'lucide-react'
 
 const Technologies = () => {
   const [expandedTech, setExpandedTech] = useState(null);
@@ -50,8 +49,6 @@ export default function Skills() {
   return (
     <div className='py-2'>
       <span className='flex flex-row gap-1'><h1 className='font-bold'>Skills</h1>
-      <p className='text-[0.7rem] font-extralight text-gray-500'>Click to expand</p>
-      <MessageCircleQuestion height={16} width={16} />
       </span>
       <Technologies />
       <OtherSkills />

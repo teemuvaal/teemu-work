@@ -12,7 +12,7 @@ export default function TechnologyPill({ technology, isExpanded, onExpand }) {
     <div className="inline-block">
       <span 
         className="inline-flex items-center hover:scale-105 cursor-pointer"
-        onClick={onExpand} onMouseEnter={onExpand} onTouchStart={onExpand}
+        onClick={onExpand}
       >
         <Image src={technology.icon} alt={technology.name} width={28} height={28} />
         {isExpanded && <ExpandedTechnology technology={technology} />}

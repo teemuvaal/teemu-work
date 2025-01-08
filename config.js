@@ -16,7 +16,7 @@ const config = {
     Instagram: "https://www.instagram.com/flipsku/",
     Twitter: "https://twitter.com/flipsku",
     Profile: "Product manager, software developer, data analyst, AI enthusiast. " +
-             "I like building things for work and for fun."+
+             "I like building things for work and for fun. "+
              "Outside of tech I enjoy reading, hiking and rewatching sitcoms.",
     Technologies: [
         {
@@ -41,7 +41,7 @@ const config = {
         },
         {
             "name": "React",
-            "level": "Beginner",
+            "level": "Fundamentals",
             "icon": "./React.svg"
         },
         {
@@ -51,7 +51,7 @@ const config = {
         },
         {
             "name": "PostgresSQL",
-            "level": "Setup, build and manage in production.",
+            "level": "Setup, build and manage.",
             "icon": "./PostgresSQL.svg"
         },
         {
@@ -123,7 +123,7 @@ const config = {
         "description": "Intermediate"
         },
         {"name": "AI",
-        "description": "AI development using Python, OpenAI for small projects."
+        "description": "AI applications for web and analytics."
         },
     ],
     // Define Job exprience here
@@ -134,7 +134,7 @@ const config = {
           "positions": [
             {
               "title": "CEO, COO, CPO, Head Of Learning Design, Customer Success Manager",
-              "description": "Claned is a smart, analytics and AI based learning platform. I've been in different roles since the company grew from 20 000 users to 100 000+ users.",
+              "description": "Claned is a smart, analytics and AI based learning platform. I've been in different roles since the company grew from 20 000 users to 100 000+ users. Currently I'm leading the product team and CEO.",
               "startDate": "2019",
               "endDate": "Present",
               "website": "https://www.claned.com"
@@ -158,7 +158,7 @@ const config = {
       [
         {
             "title": "Oisko.app",
-            "description": "Oisko is a simple social calendar tool built with NextJS, Supabase and Tailwind CSS.",
+            "description": "Oisko is a simple social calendar tool built with NextJS, Supabase and Tailwind CSS. (not in active development for now)",
             "href":"https://oisko.app",
             "cover":"/Oisko.png",
             "alt":"Picture of Oisko.app"
@@ -180,13 +180,11 @@ const config = {
         {
             "title": "Reitit -app",
             "description": "Simple web app for planning routes from one location (e.g. home, office) to multiple destinations with public transport information.",
-            "href": "https://teemu.work/reitit",
+            "href": "https://reitit.teemu.work",
             "cover": "",
             "alt": "Picture of Reitit app"
         }
       ]
-    
-
 }
 
 export default config

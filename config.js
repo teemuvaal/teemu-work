@@ -155,7 +155,21 @@ const config = {
       ],
       // Place projects here, each will be displayed as a card
       Projects:
-      [
+      [        
+        {
+            "title": "Claned",
+            "description": "Claned is a smart, analytics and AI based learning platform. Front end development, AI and data.",
+            "href": "https://www.claned.com",
+            "cover": "",
+            "alt": "Picture of Claned"
+        },
+        {
+            "title": "AdventureHub",
+            "description": "AI enchanced app to run your own RP campaigns for Dungeons and Dragons etc.",
+            "href": "https://github.com/teemuvaal/rp-dashboard",
+            "cover": "",
+            "alt": "Picture of AdventureHub"
+        },
         {
             "title": "Oisko.app",
             "description": "Oisko is a simple social calendar tool built with NextJS, Supabase and Tailwind CSS. (not in active development for now)",

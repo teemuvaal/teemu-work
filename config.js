@@ -15,9 +15,9 @@ const config = {
     GitHub: "https://github.com/teemuvaal",
     Instagram: "https://www.instagram.com/flipsku/",
     Twitter: "https://twitter.com/flipsku",
-    Profile: "I am an adult educator with expertise in online learning, software development, data and AI. " +
-             "I like building web applications and learning new technologies. Currently: frontend development, devops, servers and AI. Take a peek at the bottom of the page to see some of my projects." +
-             "I am fascinated by the intersection of humans and technology.",
+    Profile: "Product manager, software developer, data analyst, AI enthusiast. " +
+             "I like building things for work and for fun."+
+             "Outside of tech I enjoy reading, hiking and rewatching sitcoms.",
     Technologies: [
         {
             "name": "HTML5",
